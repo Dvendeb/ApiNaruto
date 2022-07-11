@@ -17,7 +17,12 @@ use App\Models\User;
 class UserController extends Controller
 {
 
-    public $infUser;
+    public function viewDocumentation(){
+        return view("documentation");
+    }
+    public function viewRegister(){
+        return view("register");
+    }
 
     public function register(Request $request)
     {

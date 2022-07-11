@@ -16,10 +16,6 @@
             <h1 class="text-center">API NARUTO</h1>
             <h5 class="text-center">En esta api podras encontrar algunos personajes que aparecen en el anime de naruto</h5>
             <img class=" rounded img-thumbnail" src="{{asset('images/Naruto.jpg')}}" alt="">
-            <h4 class="text-white text-center mt-5">Inicia dando click en:</h4>
-            <a  href="">
-                <h4 class="text-white text-center mt-1">>iniciar<</h4>
-            </a>
         </div>
     </div>
     </body>

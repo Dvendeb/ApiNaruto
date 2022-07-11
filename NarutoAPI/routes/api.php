@@ -24,6 +24,8 @@ Route::post('register',[UserController::class,'register']);
 Route::post('login',[UserController::class,'login']);
 Route::post('validate_account',[UserController::class,'validateAccount']);
 Route::post('safe_password',[UserController::class,'safePassword']);
+Route::get('documentation',[UserController::class,'viewDocumentation'])->name('view.documentation');
+Route::get('registerUser',[UserController::class,'viewRegister'])->name('view.register');
 
 Route::group(['middleware' => ['jwt.verify']], function() {
     Route::post('index',[CharacterController::class,'index']);
